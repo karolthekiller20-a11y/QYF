@@ -1,1 +1,56 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f6f7fb;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #3b3b6d;
+}
+
+.sub {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+#malla {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.semestre {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 15px;
+  min-width: 220px;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+}
+
+.semestre h2 {
+  text-align: center;
+  color: #5a5ad6;
+  font-size: 18px;
+}
+
+.ramo {
+  background: #e8e9ff;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.ramo:hover {
+  transform: scale(1.03);
+}
+
+.ramo.aprobado {
+  background: #b7f0c0;
+  text-decoration: line-through;
+}
 
